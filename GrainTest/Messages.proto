@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrainTest";
+
+message GetStateResponse {
+  string state = 1;
+}

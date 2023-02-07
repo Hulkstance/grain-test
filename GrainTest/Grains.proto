@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrainTest";
+
+import "Messages.proto";
+import "google/protobuf/empty.proto";
+
+service TestGrain {
+  rpc Test (google.protobuf.Empty) returns (google.protobuf.Empty);
+}
